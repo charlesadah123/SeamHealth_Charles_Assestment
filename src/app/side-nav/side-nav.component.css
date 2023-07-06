@@ -68,8 +68,8 @@ h2 {
 }
 
 .but-side{
-    background-color: rgba(138, 108, 200, 1);
-    color: #fff;
+    margin-top: 10px;
+    color: black;
     border-radius: 72px;
     height: 58px;
     width: 191px;
@@ -78,4 +78,15 @@ h2 {
 .drop {
     margin-left: 10px;
 }
-
+.feed{
+    background-color:  rgba(138, 108, 200, 1);
+    color: #fff;
+    border-radius: 72px;
+}
+.if{
+    margin-top: 10px;
+}
+.fee{
+    margin-top: 10px;
+    color: #fff;
+}
