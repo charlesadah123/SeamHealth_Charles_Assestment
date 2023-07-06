@@ -18,12 +18,22 @@
 .search {
     display: flex;
     margin-top: 15px;
+    justify-content: space-between;
 }
 .search-icon {
-    position: relative;
+    position: absolute;
     z-index: 5;
+    left: 720px;
+    top: 60px;   
+    font-size: large;
+}
+
+.sc {
+    display: flex;
+    justify-content: space-between;
 }
 .search-box {
+    position: relative;
     border-radius: 72px;
     width: 800px;
     border: 1px solid white;
