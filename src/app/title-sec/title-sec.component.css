@@ -1,0 +1,24 @@
+.start {
+    margin-top: 15px;
+    background: #EAEDF6;
+    padding: 30px 10px 30px 20px;
+    width: 1050px;
+}
+.title{
+    display: flex;
+    text-decoration: none;
+    list-style: none;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.title span {
+    
+    color: rgba(60, 60, 60, 1);
+ 
+}
+
+.title span.exc {
+    margin-right: 50px;   
+}
+

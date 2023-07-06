@@ -1,0 +1,29 @@
+.start{
+
+    margin-top: 15px;
+    background: #FFFFFF;
+    padding: 30px 10px 30px 20px;
+    width: 1050px;
+    color: rgba(60, 60, 60, 1);
+    border-bottom: 15px solid  #F8f8f8;
+}
+
+ul {
+    display: flex;
+    text-decoration: none;
+    list-style: none;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.purple{
+    background: white;
+    padding: 10px 30px;
+    border: 3px solid #8A6CC8;
+    border-radius: 72px;
+}
+.purple:hover{
+    color: white;
+    background: #8A6CC8;
+}

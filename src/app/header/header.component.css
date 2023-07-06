@@ -1,0 +1,53 @@
+.start {
+    position: absolute;
+    left: 280px;
+    background-color: white;
+    box-sizing: border-box;
+    height: 110px;
+    width: 1100px;
+    transition: .4s;
+    border-bottom: 7px solid #F8f8f8;
+}
+
+.item1 {
+    position: relative;
+    top: 33px;
+    left: 25px;
+    width: 115px;
+    height: 33px;
+    display: inline;
+    color: rgba(60, 60, 60, 1);
+    text-align: center;
+    font-weight: 1000;
+    font-size: 22;
+    font-family: Poppins;
+}
+
+.item2 {
+    position: relative;
+    top: 33px;
+    left: 90px;
+    box-sizing: border-box;
+    height: 13px;
+    width: 16px;
+}
+
+.item3 {
+    position: relative;
+    top: 33px;
+    left: 131px;
+    width: 127px;
+    height: 33px;
+    display: inline;
+    color: rgba(60, 60, 60, 1);
+    text-align: center;
+    font-weight: 400;
+    font-size: 22;
+    font-family: Poppins;
+}
+
+.item4 {
+    position: relative;
+    top: 38px;
+    left: 800px;
+}
