@@ -1,25 +1,38 @@
-.start{
-
-    margin-top: 15px;
-    background: #FFFFFF;
-    padding: 30px 10px 30px 20px;
-    width: 1050px;
-    color: rgba(60, 60, 60, 1);
-    border-bottom: 15px solid  #F8f8f8;
-}
-
-ul {
+.start {
+    margin-top: 10px;
     display: flex;
-    text-decoration: none;
-    list-style: none;
+    flex-direction: column;
+    filter: drop-shadow(0px 0px 14px rgba(0, 0, 0, 0.05));
+}
+.set {
+    margin-top: 10px;
+    background: #fff;
+    gap: 10px;
+    padding: 30px;
+    width: 98%;
+    font-weight: 600;
+    font-size: 16px;
+}
+.start ul{
+    display: flex;
     justify-content: space-between;
-    align-items: center;
-    margin-bottom: 20px;
+    width: 100%;
+}
+.adjust {
+    position: relative;
+}
+li{
+    position: absolute;
+    display: flex;
+    left: 15px;
+    width: 8%;
+    color: rgba(60, 60, 60, 1);
+    list-style: none;
 }
 
 .purple{
     background: white;
-    padding: 10px 30px;
+    padding: 7px 20px;
     border: 3px solid #8A6CC8;
     border-radius: 72px;
 }

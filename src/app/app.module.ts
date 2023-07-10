@@ -8,6 +8,7 @@ import { SideNavComponent } from './side-nav/side-nav.component';
 import { MainComponent } from './main/main.component';
 import { TitleSecComponent } from './title-sec/title-sec.component';
 import { ListSecComponent } from './list-sec/list-sec.component';
+import { ContentsComponent } from './contents/contents.component';
 
 
 @NgModule({
@@ -18,6 +19,7 @@ import { ListSecComponent } from './list-sec/list-sec.component';
     MainComponent,
     TitleSecComponent,
     ListSecComponent,
+    ContentsComponent,
    
   ],
   imports: [

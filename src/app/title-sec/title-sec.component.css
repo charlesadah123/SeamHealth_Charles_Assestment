@@ -1,24 +1,31 @@
-.start {
-    margin-top: 15px;
-    background: #EAEDF6;
-    padding: 30px 10px 30px 20px;
-    width: 1050px;
-}
-.title{
+.tithe {
     display: flex;
-    text-decoration: none;
-    list-style: none;
-    justify-content: space-between;
     align-items: center;
+    background: #EAEDF6;
+    padding: 30px;
+    width: 98%;
+    font-weight: 600;
+    font-size: 16px;
+    filter: drop-shadow(0px 0px 14px rgba(0, 0, 0, 0.05));
 }
-
-.title span {
-    
+.tithe ul{
+    display: flex;
+    justify-content: space-between;
+    width: 85%;
+}
+.shift{
+    position: relative;
+}
+li{ 
+    position: absolute;
+    display: flex;
+    width: 8%;
+    left: 10px;
     color: rgba(60, 60, 60, 1);
- 
+    list-style: none;
+}
+.hide{
+    display: none;
 }
 
-.title span.exc {
-    margin-right: 50px;   
-}
 

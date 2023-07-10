@@ -1,4 +1,4 @@
-.main {
+/*.main {
     position: absolute;
     left: 280px;
     top: 130px;
@@ -125,4 +125,118 @@
 .dash-iconp {
     height: 37;
 width: 37;
+}*/
+
+.main {
+    .title {
+        margin: 15px 0 0 20px;
+        color: #8A6CC8;
+    }
+    .search {
+        display: flex;
+        flex-wrap: wrap;
+        margin: 10px 0 0 7px;
+        padding: 10px 20px 5px 13px;
+        align-items: center;
+        gap: 40px;
+    }
+    .search-box{
+        display: flex;
+        align-items: center;
+        position: relative;
+        border: 1px solid #fff;
+        border-radius: 72px;
+        width: 70%;
+        padding: 7px;
+        background: #fff;
+        border: 3px solid #fff;
+    }
+    .search-input{
+        margin-left: 10px;
+        border: none;
+        font-size: 16px;
+    }
+    .search-input:focus{
+        outline: none;
+    }
+    .search-icon{
+        position: absolute;
+        right: 15px;
+    }
+    .export{
+        display: flex;
+        gap: 15px;
+        padding: 7px 20px 7px 20px;
+        border-radius: 72px;
+        background: #8A6CC8;
+        color: #fff;
+        border: 3px solid #8A6CC8;
+    }
+    .options{
+        display: flex;
+        flex-wrap: wrap;
+        margin: 10px 0 0 7px;
+        padding: 0px 20px 20px 13px;
+        align-items: center;
+        gap: 40px;
+        align-items: center;
+    }
+    .first{
+        display: flex;
+        flex-wrap: wrap;
+        width: 75%;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .item{
+        display: flex;
+        align-items: center;
+        border: 1px solid #fff;
+        gap: 10px;
+        border-radius: 72px;
+        box-shadow-width: 1;
+        padding: 5px 10px;
+        background: #fff;
+        filter: drop-shadow(1px 3px 3px rgba(0, 0, 0, 0.12));
+    }
+    .itemf{
+        display: flex;
+        align-items: center;
+        gap: 10px;
+        background: #8A6CC8;
+        border-radius: 72px;
+        box-shadow-width: 1;
+        padding: 7px 12px;
+        filter: drop-shadow(1px 3px 3px rgba(0, 0, 0, 0.12));
+    }
+    .itemx{
+        display: flex;
+        align-items: center;
+        border: 1px solid #fff;
+        gap: 10px;
+        background: #fff;
+        border-radius: 72px;
+        box-shadow-width: 1;
+        padding: 7px 12px;
+        filter: drop-shadow(1px 3px 3px rgba(0, 0, 0, 0.12));
+    }
+    .span{
+        color: #3C3C3C;
+        font-size: 14px;
+    }
+    .spanf{
+        color: #fff;
+        font-size: 14px;
+    }
+    .spanx{
+        color: #3C3C3C;
+        font-size: 14px;
+    }
+    .itemp{
+        flex-grow: 1;
+        display: flex;
+        align-items: center;
+        justify-content: end;
+        gap: 10px;
+    }
 }
